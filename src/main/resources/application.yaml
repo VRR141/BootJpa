@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/netology
+    username: postgres
+    password: q1w2e3r4
+  liquibase:
+    change-log: classpath:/liquibase/changelog.yaml
