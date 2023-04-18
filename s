@@ -20,61 +20,70 @@ public class PrintPassStep extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+
+        setMaximumSize(new java.awt.Dimension(700, 1174));
+        setMinimumSize(new java.awt.Dimension(700, 1174));
+        setPreferredSize(new java.awt.Dimension(700, 1174));
 
         jLabel1.setText("jLabel1");
+        jLabel1.setMaximumSize(new java.awt.Dimension(700, 468));
+        jLabel1.setMinimumSize(new java.awt.Dimension(700, 468));
+        jLabel1.setPreferredSize(new java.awt.Dimension(700, 468));
 
         jLabel2.setText("jLabel2");
-        jLabel2.setMaximumSize(new java.awt.Dimension(650, 48));
-        jLabel2.setMinimumSize(new java.awt.Dimension(650, 48));
+        jLabel2.setMaximumSize(new java.awt.Dimension(700, 48));
+        jLabel2.setMinimumSize(new java.awt.Dimension(700, 48));
         jLabel2.setPreferredSize(new java.awt.Dimension(650, 48));
 
         jLabel3.setText("jLabel3");
-        jLabel3.setMaximumSize(new java.awt.Dimension(650, 96));
-        jLabel3.setMinimumSize(new java.awt.Dimension(650, 96));
-        jLabel3.setPreferredSize(new java.awt.Dimension(650, 96));
+        jLabel3.setMaximumSize(new java.awt.Dimension(700, 96));
+        jLabel3.setMinimumSize(new java.awt.Dimension(700, 96));
+        jLabel3.setPreferredSize(new java.awt.Dimension(700, 96));
 
         jLabel4.setText("jLabel4");
-        jLabel4.setMaximumSize(new java.awt.Dimension(650, 206));
-        jLabel4.setMinimumSize(new java.awt.Dimension(650, 206));
-        jLabel4.setPreferredSize(new java.awt.Dimension(650, 206));
+        jLabel4.setMaximumSize(new java.awt.Dimension(700, 206));
+        jLabel4.setMinimumSize(new java.awt.Dimension(700, 206));
+        jLabel4.setPreferredSize(new java.awt.Dimension(700, 206));
+        jLabel4.setVerifyInputWhenFocusTarget(false);
 
-        jLabel6.setText("jLabel6");
-        jLabel6.setMaximumSize(new java.awt.Dimension(80, 80));
-        jLabel6.setMinimumSize(new java.awt.Dimension(80, 80));
-        jLabel6.setPreferredSize(new java.awt.Dimension(80, 80));
+        jLabel7.setText("jLabel7");
+        jLabel7.setMaximumSize(new java.awt.Dimension(700, 100));
+        jLabel7.setMinimumSize(new java.awt.Dimension(700, 100));
+        jLabel7.setPreferredSize(new java.awt.Dimension(700, 100));
 
-        jLabel5.setText("jLabel5");
+        jLabel8.setText("jLabel8");
+        jLabel8.setMaximumSize(new java.awt.Dimension(700, 32));
+        jLabel8.setMinimumSize(new java.awt.Dimension(700, 32));
+        jLabel8.setPreferredSize(new java.awt.Dimension(700, 32));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(283, 283, 283)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 253, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(39, 39, 39)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(8, 8, 8)
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(40, 40, 40)
+                .addGap(60, 60, 60)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(53, 53, 53)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(36, 36, 36)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(48, Short.MAX_VALUE))
         );
     }// </editor-fold>                        
 
@@ -84,7 +93,8 @@ public class PrintPassStep extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     // End of variables declaration                   
 }
+
